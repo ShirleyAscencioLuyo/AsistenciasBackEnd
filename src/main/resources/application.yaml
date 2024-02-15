@@ -1,0 +1,22 @@
+server:
+  port: 8085
+  servlet:
+    context-path: /scavontime
+spring:
+  application:
+    name: scavontime
+  datasource:
+    url: jdbc:oracle:thin:@atpscavontime_medium?TNS_ADMIN=C:/Wallet/Wallet_ATPSCAVONTIME  #la ruta se cambian segun donde descomprimen el wallet
+    username: atp_Scavontime 
+    password: Scavontime#2023
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    database: oracle
+    database-platform: org.hibernate.dialect.Oracle12cDialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+oracle:
+  jdbc:
+    fanEnabled: false

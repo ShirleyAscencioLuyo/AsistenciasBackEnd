@@ -1,2 +1,1 @@
-# AsistenciasBackEnd
-Sistema de Asistencia para una institución elaborado con Spring y Node.js.
+# AS221S4_T01_be
